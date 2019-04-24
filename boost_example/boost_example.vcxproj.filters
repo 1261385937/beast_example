@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="IoContextPool">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="CoroutinePool">
+      <UniqueIdentifier>{bc0aee73-9283-4e73-9901-357008adbdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{72a0e423-91fa-4e1f-ada5-c454351e43e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EosTableData">
+      <UniqueIdentifier>{f376b51e-bf1e-46aa-9d10-ddcd4d7d1a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HttpClient">
+      <UniqueIdentifier>{d99ae3b1-c662-43fc-943d-7cda549831e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IoContextPool.cpp">
+      <Filter>IoContextPool</Filter>
+    </ClCompile>
+    <ClCompile Include="CoroutinePool.cpp">
+      <Filter>CoroutinePool</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="TableData.cpp">
+      <Filter>EosTableData</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpClient.cpp">
+      <Filter>HttpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IoContextPool.h">
+      <Filter>IoContextPool</Filter>
+    </ClInclude>
+    <ClInclude Include="CoroutinePool.h">
+      <Filter>CoroutinePool</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="TableData.h">
+      <Filter>EosTableData</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpClient.h">
+      <Filter>HttpClient</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

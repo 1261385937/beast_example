@@ -1,0 +1,2 @@
+[2019-02-01 10:42:15.919][tid:9888 app.cpp:41] [info] App start
+[2019-02-01 10:42:16.947][tid:9888 app.cpp:110] [info] App exit
